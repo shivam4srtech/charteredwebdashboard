@@ -244,7 +244,7 @@ body{
     padding: 2rem 1rem;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     margin-bottom: 1rem;
-    display: none;
+    /* display: none; */
 }
 .tabSearch .toggleTab ul{
     display: flex;
@@ -583,3 +583,192 @@ body{
     font-size: .8rem;
     color: #414c59;
   }
+  .tableContainer{
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+  }
+  .tableContainer table{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .tableContainer tr td, .tableContainer tr th{
+    min-width: 100px;
+    padding: .5rem 0;
+  }
+ .tableContainer tr th{
+   font-weight: 600;
+   color: #000;
+   font-size: .8rem;
+  }
+  .tableContainer tr th a{
+    font-weight: 600;
+    color: #000;
+    font-size: .8rem;
+   }
+   .tableContainer tr th a:hover{
+    text-decoration: none;
+   }
+  .tableContainer tr th:nth-of-type(1){
+    min-width: 160px;
+   }
+  .tableContainer tr td{
+    font-weight: 500;
+    color: #000;
+    font-size: .8rem;
+   }
+   .tableContainer table tr {
+    border: 1px solid #cecccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   }
+   .tableContainer table tr:last-child {
+    border: none;
+   }
+   .tableContainer table tr td svg {
+    width: 60px !important;
+    object-fit: contain;
+   }
+
+   .financeTable .tableContainer {
+    display: none; 
+  }
+
+  .financeTable .tableContainer.active {
+    display: block;
+  }
+  .financeTable .toggleTable {
+   padding: 0;
+   border-radius: 5px;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24);
+  }
+  .financeTable .toggleTable button {
+    cursor: pointer;
+    margin: 0; 
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: .4em .6rem;
+  }
+  .financeTable .toggleTable button:nth-of-type(1){
+   border-radius: 5px 0 0 5px;
+  }
+  .financeTable .toggleTable button:nth-of-type(2){
+    border-radius: 0 5px 5px 0;
+   }
+
+  .toggleTable button.active {
+    background-color: #e5e5e5; 
+    color: #fff;
+  }
+  .financeTable .snippetHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+  .filterTable .snippetHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+  .filterTable .filterTableBtn{
+   position: relative;
+  }
+  .filterTable .filterTableBtn button{
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24);
+    background-color: #fff;
+    font-size: .9rem;
+    padding: .2rem .4rem;
+  }
+  .filterTable .filterTableBtn button svg{
+    margin-right: .5rem;
+  }
+  .filterTable .filterTableBtn .filterInput{
+    position: absolute;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .24);
+    top: 0;
+    right: 0;
+    height: 65px;
+    width: 240px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+   }
+   .filterTable .filterTableBtn .filterInput input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #2e2e2e;
+    font-weight: 500;
+    color: #2e2e2e;
+   }
+   .filterTable .filterTableBtn .filterInput {
+    display: none;
+  }
+
+  .filterTable .filterTableBtn .filterInput.visible {
+    display: flex;
+  }
+  .listDirector .dirName{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #5383cb;
+    display: block;
+    margin-bottom: .5rem;
+  }
+  .listDirector a:hover{
+    text-decoration: none;
+  }
+  .listDirector h4{
+    font-weight: 600;
+    color: #000;
+    font-size: .9rem;
+    margin-bottom: 0rem;
+  }
+  .listDirector span{
+    font-weight: 400;
+    color: #000;
+    font-size: .8rem;
+    margin-bottom: 0rem;
+    display: block;
+  }
+  .listDirector a{
+    color: #5383cb;
+    display: block;
+    font-weight: 500;
+  }
+  .audit h4{
+    font-weight: 600;
+    color: #000;
+    font-size: .9rem;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    margin-bottom: .2rem;
+  }
+  .audit span{
+    font-weight: 400;
+    color: #000;
+    font-size: .8rem;
+    margin-bottom: 0rem;
+    display: block;
+  }
+  .audit span strong{
+    font-weight: 600;
+    margin-right: .2rem;
+  }
+@media(max-width:500px){
+    .snippet .snippetHeader h2 {
+        font-weight: 600;
+        font-size: .9rem;
+    }
+    .snippet .snippetHeader h2 img {
+       height: 20px !important;
+       width: 20px !important;
+    }
+}
