@@ -1,0 +1,373 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Dashboard | CharteredONE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+     <!-- ***********************************Montserrat********************************** -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <!-- *****************************OPENSANS************************ -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://demo.dashboardpack.com/architectui-html-free/main.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/dashboardpack.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="./css/doc.css">
+    <!-- *******************Fontawesome***************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src">
+                    Chartered<span>ONE</span>
+                </div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>    
+            <div class="app-header__content">
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left  mr-3 header-user-info">
+                                    <div class="widget-heading">
+                                       Rachin Ravindra
+                                    </div>
+                                </div>
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                            <img width="40" height="40" class="rounded-circle" src="./images/user_847969.png" alt="user-icon">
+                                            
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                            <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Settings</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Privacy Policy</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Logout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>               
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>    
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li>
+                                <a href="./dashboard-home.html">
+                                    <i class="metismenu-icon fa-solid fa-home">
+                                    </i>Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="metismenu-icon fa-solid fa-users-gear">
+                                    </i>Our Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="metismenu-icon fa-solid fa-calendar">
+                                    </i>Compliances
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./enrolled-services.html">
+                                    <i class="metismenu-icon fa-solid fa-calendar">
+                                    </i>Enrolled Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./mca-search.html">
+                                    <i class="metismenu-icon fa-solid fa-building">
+                                    </i>search company
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="row">
+                        <div class="tabSearch">
+                            <div class="toggleTab">
+                                <ul>
+                                    <li><a href="./mca-search.html"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grid" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 72C0 49.9 17.9 32 40 32l48 0c22.1 0 40 17.9 40 40l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40L0 72zM0 232c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48zM128 392l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48zM288 232l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48zM448 72l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48zM448 392l0 48c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-48c0-22.1 17.9-40 40-40l48 0c22.1 0 40 17.9 40 40z" class=""></path></svg>Vitals</a></li>
+                                    <li><a href="./financials.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M0 64C0 46.3 14.3 32 32 32l64 0 16 0 176 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-56.2 0c9.6 14.4 16.7 30.6 20.7 48l35.6 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-35.6 0c-13.2 58.3-61.9 103.2-122.2 110.9L274.6 422c14.4 10.3 17.7 30.3 7.4 44.6s-30.3 17.7-44.6 7.4L13.4 314C2.1 306-2.7 291.5 1.5 278.2S18.1 256 32 256l80 0c32.8 0 61-19.7 73.3-48L32 208c-17.7 0-32-14.3-32-32s14.3-32 32-32l153.3 0C173 115.7 144.8 96 112 96L96 96 32 96C14.3 96 0 81.7 0 64z"/></svg>Financials</a></li>
+                                    <li><a href="./charts.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 400c0 44.2 35.8 80 80 80l400 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 416c-8.8 0-16-7.2-16-16L64 64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/></svg>Charts</a></li>
+                                    <li><a href="./gst.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>GST</a></li>
+                                    <li><a href="./companyNetwork.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M418.4 157.9c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80c-43.4 0-78.7 34.5-80 77.5L136.2 151.1C121.7 136.8 101.9 128 80 128c-44.2 0-80 35.8-80 80s35.8 80 80 80c12.2 0 23.8-2.7 34.1-7.6L259.7 407.8c-2.4 7.6-3.7 15.8-3.7 24.2c0 44.2 35.8 80 80 80s80-35.8 80-80c0-27.7-14-52.1-35.4-66.4l37.8-207.7zM156.3 232.2c2.2-6.9 3.5-14.2 3.7-21.7l183.8-73.5c3.6 3.5 7.4 6.7 11.6 9.5L317.6 354.1c-5.5 1.3-10.8 3.1-15.8 5.5L156.3 232.2z"/></svg>Company Network</a></li>
+                                    <li><a href="./document.html" class="active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M320 464c8.8 0 16-7.2 16-16l0-288-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0zM0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64z"/></svg>Document</a></li>
+                                </ul>
+                            </div>
+                            <div class="searchBox">
+                                <input type="text" placeholder="search company" id="searchInput">
+                                <button>Search →</button>
+                                <div id="suggestions" class="suggestions" style="display: none;"></div>
+                            </div>
+                        </div>
+                        <div class="companyName">
+                            <div>
+                                <h1>ADANI VIZHINJAM PORT PRIVATE LIMITED</h1>
+                            </div>
+                            <div>
+                                <button><i class="fa-solid fa-lock"></i> Request Update</button>
+                            </div>
+                        </div>
+                        <div class="isActive mb-3">
+                            <div>
+                                <span>STATUS: <small>Active</small></span>
+                            </div>
+                            <div>
+                                <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M40 48C26.7 48 16 58.7 16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM16 232l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0z"/></svg> add to list</button>
+                                <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"/></svg> download</button>
+                                <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M320 488c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1s14.2 12.4 14.2 21.9l0 40 16 0c35.3 0 64-28.7 64-64l0-166.7C371.7 141 352 112.8 352 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3L464 320c0 70.7-57.3 128-128 128l-16 0 0 40zM456 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 24c0-9.5 5.6-18.1 14.2-21.9s18.8-2.3 25.8 4.1l80 72c5.1 4.6 7.9 11 7.9 17.8s-2.9 13.3-7.9 17.8l-80 72c-7 6.3-17.2 7.9-25.8 4.1s-14.2-12.4-14.2-21.9l0-40-16 0c-35.3 0-64 28.7-64 64l0 166.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3L48 192c0-70.7 57.3-128 128-128l16 0 0-40zM56 432a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z"/></svg> compare</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="snippet" style="padding-top: 1.5rem;">
+                                <div class="snippetHeader">
+                                    <h2>DOCUMENTS</h2>
+                                </div>
+                                <div class="docAccordin">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Financials (3 documents)
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <div class="tableContainer">
+                                                    <table>
+                                                         <tbody>
+                                                               <tr>
+                                                                    <th>Document Name</th>
+                                                                    <th>Filing Date</th>
+                                                               </tr>
+                                                               <tr>
+                                                                    <td> <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> </td>
+                                                                    <td>9 Jul 2024</td>
+                                                               </tr>
+                                                               <tr>
+                                                                    <td> <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> </td>
+                                                                    <td>9 Jul 2024</td>
+                                                               </tr>
+                                                               <tr>
+                                                                    <td> <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> </td>
+                                                                    <td>9 Jul 2024</td>
+                                                               </tr>
+                                                         </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushCollapseOneTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Annual Returns (3 documents)
+                                              </button>
+                                            </h2>
+                                            <div id="flushCollapseOneTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                              <div class="accordion-body">
+                                                  <div class="tableContainer">
+                                                      <table>
+                                                           <tbody>
+                                                                 <tr>
+                                                                      <th>Document Name</th>
+                                                                      <th>Filing Date</th>
+                                                                 </tr>
+                                                                 <tr>
+                                                                    <td> 
+                                                                        <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> 
+                                                                        <ul>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>9 Jul 2024</td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                    <td> 
+                                                                        <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> 
+                                                                        <ul>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>9 Jul 2024</td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                    <td> 
+                                                                        <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> 
+                                                                        <ul>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+                                                                            <li><img src="./images/Paper-pin.png" alt="pin" width="18" height="18"><a href="#">List of shareholders and debt holders.pdf</a> <img src="./images/pdficon_trans.png" height="18" width="18" alt="pdf-icon"></li>
+
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>9 Jul 2024</td>
+                                                                 </tr>
+                                                
+                                                           </tbody>
+                                                      </table>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushCollapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Incorporation (2 documents)
+                                              </button>
+                                            </h2>
+                                            <div id="flushCollapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                              <div class="accordion-body">
+                                                  <div class="tableContainer">
+                                                      <table>
+                                                           <tbody>
+                                                                 <tr>
+                                                                      <th>Document Name</th>
+                                                                      <th>Filing Date</th>
+                                                                 </tr>
+                                                                 <tr>
+                                                                      <td> <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> </td>
+                                                                      <td>9 Jul 2024</td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                      <td> <a href="#">Form AOC-4(XBRL)-09072024_signed <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="#2e2e2e"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg></a> </td>
+                                                                      <td>9 Jul 2024</td>
+                                                                 </tr>
+                                                           </tbody>
+                                                      </table>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- show filing table -->
+    <script>
+        const showFilingTables = document.querySelector('.showFilingTables');
+        const filingTables = document.querySelectorAll('.filingTable');
+      
+        showFilingTables.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default anchor behavior
+          
+          let allTablesVisible = true;
+      
+          filingTables.forEach(function(table) {
+            if (table.style.display === 'none' || table.style.display === '') {
+              table.style.display = 'block';
+              allTablesVisible = false;
+            } else {
+              table.style.display = 'none';
+            }
+          });
+      
+          // Change the anchor tag text based on the visibility of the tables
+          if (allTablesVisible) {
+            showFilingTables.textContent = 'Show Filing Tables';
+          } else {
+            showFilingTables.textContent = 'Hide Filing Tables';
+          }
+        });
+    </script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/dashboard-pack.js"></script>
+<script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

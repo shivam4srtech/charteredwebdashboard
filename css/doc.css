@@ -1,0 +1,104 @@
+.docAccordin .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+.docAccordin .accordion-button:focus {
+    z-index: 3;
+    border-color:none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+.docAccordin .accordion-button {
+   font-weight: 600;
+   color: #000;
+   letter-spacing: .5px;
+}
+.docAccordin .accordion-button:hover{
+    background-color: #f5f5f5;
+ }
+.snippet {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+.snippet .snippetHeader h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.docAccordin .accordion-item{
+    border-top: 1px solid #e2e2e2 !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+    margin-bottom: 1rem;
+}
+.tableContainer{
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+  }
+  .tableContainer table{
+    overflow: hidden;
+    width: 100%;
+  }
+  .tableContainer tr td, .tableContainer tr th{
+    min-width: 100px;
+    padding: .5rem 0;
+  }
+ .tableContainer tr th{
+   font-weight: 600;
+   color: #000;
+   font-size: .8rem;
+  }
+  .tableContainer tr th a{
+    font-weight: 600;
+    color: #000;
+    font-size: .8rem;
+   }
+   .tableContainer tr th a:hover{
+    text-decoration: none;
+   }
+  .tableContainer tr th:nth-of-type(1){
+    min-width: 160px;
+   }
+  .tableContainer tr td{
+    font-weight: 500;
+    color: #000;
+    font-size: .8rem;
+   }
+   .tableContainer table tr {
+    border: 1px solid #cecccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   }
+   .tableContainer table tr:last-child {
+    border: none;
+   }
+  
+   .tableContainer table tr td a {
+     color: #5383cb;
+     font-weight: 500;
+     display: block;
+   }
+   .tableContainer table tr td svg{
+    width: 8px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .tableContainer table tr td ul li{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   margin-top: .5rem;
+  }
+  .tableContainer table tr td ul li img:nth-of-type(1){
+    margin-right: .2rem;
+   }
+   .tableContainer table tr td ul li img:nth-of-type(2){
+    margin-left: .2rem;
+   }
