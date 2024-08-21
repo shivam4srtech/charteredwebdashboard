@@ -1,0 +1,51 @@
+.chartBox{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    background-color: #fff;
+    padding: 1rem .5rem;
+    margin-bottom: 1rem;
+}
+.chartBox h2{
+   color: #2e2e2e;
+   font-weight: 600;
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+   line-height: 1.4;
+}
+.chartBox .chart{
+    max-width: 100%;
+ }
+  .google-visualization-title #revenueFromOpt{
+   border: 2px solid red !important;
+}
+ .google-visualization-axis-label #revenueFromOpt{
+    border: 2px solid red !important;
+}
+ .google-visualization-chart-wrapper #revenueFromOpt{
+   border: 2px solid red !important;
+}
+ .google-visualization-tooltip #revenueFromOpt{
+   border: 2px solid red !important;
+}
+#revenueFromOpt .google-visualization-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    border: 2px solid red #9999;
+}
+.chartBox .chart table tbody tr td:nth-of-type(1){
+   border: 1px solid red;
+ }
+ .chartBox .chart svg g{
+    border: 1px solid red !important;
+    fill: #ff0000 !important;
+  }
+  .chartBox .chart svg{
+    max-width: 100% !important;
+    overflow: auto;
+  }
+  .chartBox .chart svg rect{
+    border: 2px solid red !important;
+    max-width: 100% !important;
+    overflow: auto;
+    width: 100%;
+  }

@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
  }
  .staticsGraph p{
    color: #414c59;
@@ -417,4 +418,32 @@
        height: 20px !important;
        width: 20px !important;
     }
+}
+
+.chartBox{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  background-color: #fff;
+  padding: 1rem .5rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+.chartBox h2{
+ color: #2e2e2e;
+ font-weight: 600;
+ font-size: 1.2rem;
+ margin-bottom: 1rem;
+ line-height: 1.4;
+}
+.chartBox .chart{
+  width: 100%;
+  max-width: 100%;
+}
+.chartContainer{
+  width: 100%;
+  overflow: auto;
+  max-width: 100%;
+
+}
+.chartContainer::-webkit-scrollbar{
+ display: none;
 }
